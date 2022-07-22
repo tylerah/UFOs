@@ -3,13 +3,13 @@
 The purpose of this project was to create a webpage that contained a dynamic table capable of filtering data pertaining to UFO sightings. The original webpage was able to filter the data by date only, however, the updated webpage is capable of filtering for multiple criteria. The criteria included are: date, city, state, country, and shape. 
 
 ## Results
-The webpage includes input fields that ask the end-user to provide the information they desire to filter the data with. The webpage uses JavaScript to detect whether or not any input has been provided. As soon as the user provides an input and clicks out of the field, the table will automatically update to be filtered based on the provided input. 
+The webpage includes input fields that ask the end-user to provide the information they desire to filter the data with. The webpage uses JavaScript to detect whether or not any input has been provided. As soon as the user provides an input and either presses enter or clicks out of the field, the table will automatically update to be filtered based on the provided input. 
 
 Before the user provides any input, the input boxes display an example of acceptable input. The unfiltered table looks like the following image:
 
 ![Screen Shot 2022-07-21 at 11 33 33 PM](https://user-images.githubusercontent.com/104606662/180369861-11a78236-ccb1-4837-a414-c241f4b0e226.png)
 
-Once the user provides input, the table automatically updates based on the provided input. The following image shows an example of the table being filtered based on the input "el cajon" in the City input field. Note that the table updates regardless of whether all of the fields have been supplied with a specific input. 
+Once the user provides input and presses enter, the table automatically updates based on the provided input. The following image shows an example of the table being filtered based on the input "el cajon" in the City input field. Note that the table updates regardless of whether all of the fields have been supplied with a specific input. 
 
 ![Screen Shot 2022-07-21 at 11 34 08 PM](https://user-images.githubusercontent.com/104606662/180370056-ed4b91a3-1958-4f03-8f49-f85451818085.png)
 
